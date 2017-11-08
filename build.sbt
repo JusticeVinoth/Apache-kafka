@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  "org.apache.kafka" % "kafka-clients" % "1.0.0"
+  "org.apache.kafka" % "kafka-clients" % "1.0.0",
+  "com.google.protobuf" % "protobuf-java" % "3.4.0"
   
 )
 // Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present
